@@ -1,0 +1,16 @@
+.cart img {
+  width: 200px;
+}
+.cart {
+  display: flex;
+  border: 1px solid #135933;
+  padding: 1rem;
+  align-items: center;
+  margin: 1rem 0;
+  gap: 2rem;
+  border-radius: 2rem;
+  justify-content: space-between;
+}
+.productAction {
+  white-space: nowrap;
+}

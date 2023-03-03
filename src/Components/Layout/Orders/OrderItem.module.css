@@ -1,0 +1,16 @@
+.product {
+  border-top: 1px solid #32c76b;
+  border-bottom: 1px solid #32c76b;
+  padding: 1rem 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.productInfo img {
+  width: 300px;
+}
+
+.productAction {
+  white-space: nowrap;
+}

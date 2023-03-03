@@ -1,8 +1,12 @@
 import { defineConfig } from "vite"
-import react from "@vitejs/plugin-react-swc"
+import react from "@vitejs/plugin-react"
+import viteTsconfigPaths from "vite-tsconfig-paths"
+import svgrPlugin from "vite-plugin-svgr"
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/vite-deploy-demo/",
+  server: {
+    port: 3000,
+  },
 })

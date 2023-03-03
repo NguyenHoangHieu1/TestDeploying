@@ -1,0 +1,52 @@
+.description {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-style: oblique;
+}
+
+.benefits {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.benefits > * {
+  flex: 0 1 30%;
+}
+
+.benefit {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  padding: 0.25rem;
+  color: black;
+  background-color: rgb(170 239 45);
+}
+
+.benefit:hover {
+  background-color: black;
+  color: white;
+}
+
+.benefitIcon {
+  width: 25%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+}
+.benefit:hover .benefitIcon {
+  background-color: white;
+}
+.benefit:hover .benefitIcon i {
+  color: black;
+}
+
+.benefitDescription {
+  width: 75%;
+}

@@ -1,0 +1,50 @@
+.article {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+.productImage {
+}
+
+.productImage img {
+  width: 500px;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 2rem;
+}
+
+.productInfo .focus > * {
+  color: rgb(238, 77, 45);
+  background-color: #fafafa;
+  display: inline-block;
+  margin-inline: 1.1rem;
+}
+
+.input {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  width: 3rem;
+  text-align: center;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+.button:hover {
+  padding: 0.5rem 1rem;
+  background-color: rgb(238, 77, 45);
+  color: rgb(244, 239, 238);
+  cursor: pointer;
+}
+.detail input {
+  font-size: 1.2rem;
+  width: 15%;
+}
