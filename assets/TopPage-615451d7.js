@@ -1,0 +1,1 @@
+import{a as o}from"./index-21e2e132.js";const s="_goUp_7cksa_1",l={goUp:s},n=a=>o("div",{onClick:()=>{document.documentElement.scrollTop=0},className:l.goUp,children:o("i",{className:"fa-solid fa-up-long"})});export{n as default};

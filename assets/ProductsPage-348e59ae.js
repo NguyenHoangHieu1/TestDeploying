@@ -1,0 +1,1 @@
+import{r as t,e as u,a as p,P as c}from"./index-21e2e132.js";const d=a=>{const[r,o]=t.exports.useState([]),e=u();return t.exports.useEffect(()=>{e("/products",{useData(s){return s}}).then(s=>{s&&s.products&&o(s.products)})},[]),p(c,{linkPage:"products",pagination:!0,products:r})};export{d as default};
